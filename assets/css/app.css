@@ -1,0 +1,94 @@
+/*Stylesheet*/
+/*body, html {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-touch-callout: none;
+    -webkit-text-size-adjust: none;
+    -webkit-user-select: none;
+    margin: 0;
+    padding: 0;
+    font-family: Impact, Arial, Verdana, sans-serif;
+    font-weight: normal;
+    color: #ccc;
+    background-color: #000000;
+    height: 100%;
+    min-height: 100%;
+}*/
+#leaderboard {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+    overflow: hidden;
+    background-color: #000000;
+}
+#content {
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0px;
+    top:0px;
+    overflow: hidden;
+    background-color: #000000;
+}
+#all {
+    height:100%;
+    overflow: auto;
+    font-family: FolioCon-Bol;
+    font-size: 150%;
+    text-align: center;
+    color: white;
+}
+#current {
+    width: 100%;
+    font-family: FolioCon-Bol;
+    font-size: 150%;
+    text-align: center;
+    color: black;
+    background-color: white;
+    position:absolute;
+    bottom: 0;
+    left: 0;
+}
+input {
+    font-family: FolioCon-Bol;
+    font-size: 150%;
+    text-align: left;
+    color: black;
+    background-color: white;
+    border: none;
+}
+#closeA:link {
+    text-decoration:none;
+    color: white;
+}
+#closeA:visited {
+    text-decoration:none;
+    color: white;
+}
+#closeA:hover {
+    text-decoration:none;
+    color: red;
+}
+#closeA:active {
+    text-decoration:none;
+    color: red;
+}
+#close {
+    font-family: FolioCon-Bol;
+    font-size: 150%;
+    width:100%;
+    margin-right: 20px;
+    text-align: right;
+}
+#title {
+    font-family: FolioCon-Bol;
+    font-size: 350%;
+    width:100%;
+    text-align: center;
+    color: white;
+}
+#leaders, #currentTable {
+    width:100%;
+    text-align: center;
+}
